@@ -25,6 +25,6 @@ Tweet profiler
 ![Profiler](https://user-images.githubusercontent.com/58707590/166121770-7ad031d1-e7bf-4f24-85d7-d1bcffc52020.png)
 
 Time Series
-
+![Time-series](https://user-images.githubusercontent.com/58707590/166121806-9e549c4b-664b-460c-a997-eb8450ddc155.png)
 
 TF-IDF
