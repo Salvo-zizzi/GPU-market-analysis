@@ -11,3 +11,6 @@ Tweet profiler
 ![Profiler-Boxplot](https://user-images.githubusercontent.com/58707590/166121505-450ae39e-3e99-423b-8f38-b201516854fe.jpg)
 
 Time Series
+![Sentiment_linechart-time](https://user-images.githubusercontent.com/58707590/166121570-9e81988d-1a0c-4936-854f-ed0fe380fab8.jpg)
+
+TF-IDF
