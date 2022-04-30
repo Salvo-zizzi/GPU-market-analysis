@@ -15,3 +15,14 @@ Time Series
 
 TF-IDF
 ![TF-IDF](https://user-images.githubusercontent.com/58707590/166121603-8fb3bdb8-3673-4e2f-a3c9-fc9aea4d444a.jpg)
+
+# GPU Price
+
+Sentiment analysis with Vader's compound
+
+Tweet profiler
+
+Time Series
+
+
+TF-IDF
