@@ -1,7 +1,8 @@
 
-This is the analysis that about GPU stocks, prices and shortage situation between 25 March and 7 April. I scraped data from twitter and used Vader for the sentiment analysis, so in the graphics below the values refer to the compound.
-We can see a discrepance between the sentimen analysis and the tweet profiler, i think the last one is more accurate. 
+This is the analysis about GPU stocks, prices and shortage situation between 25 March and 7 April. I scraped data from twitter and used Vader for the sentiment analysis, so in the graphics below the values refer to the compound.
+We can see a discrepance between the sentiment analysis and the tweet profiler, i think the last one is more accurate. 
 I use also che TF-IDF to see the more common terms.
+
 # GPU Stock
 
 Sentiment analysis with Vader's compound
