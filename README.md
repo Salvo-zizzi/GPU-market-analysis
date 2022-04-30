@@ -14,3 +14,4 @@ Time Series
 ![Sentiment_linechart-time](https://user-images.githubusercontent.com/58707590/166121570-9e81988d-1a0c-4936-854f-ed0fe380fab8.jpg)
 
 TF-IDF
+![TF-IDF](https://user-images.githubusercontent.com/58707590/166121603-8fb3bdb8-3673-4e2f-a3c9-fc9aea4d444a.jpg)
