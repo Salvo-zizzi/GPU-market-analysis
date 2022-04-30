@@ -19,6 +19,7 @@ TF-IDF
 # GPU Price
 
 Sentiment analysis with Vader's compound
+![Sentiment](https://user-images.githubusercontent.com/58707590/166121724-4392224a-b52a-4792-b8ef-ea3b1370af3f.png)
 
 Tweet profiler
 
