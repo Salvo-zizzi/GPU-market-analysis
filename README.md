@@ -29,3 +29,4 @@ Time Series
 
 TF-IDF
 
+![price-tf-idf_price](https://user-images.githubusercontent.com/58707590/166122060-45126651-30e8-493a-a8e2-e96caa96eaf4.jpg)
