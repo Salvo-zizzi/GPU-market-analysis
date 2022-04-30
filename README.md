@@ -28,3 +28,4 @@ Time Series
 ![Time-series](https://user-images.githubusercontent.com/58707590/166121806-9e549c4b-664b-460c-a997-eb8450ddc155.png)
 
 TF-IDF
+[price-tf-idf_price.csv](https://github.com/Salvo-zizzi/GPU-market-analysis/files/8597784/price-tf-idf_price.csv)
