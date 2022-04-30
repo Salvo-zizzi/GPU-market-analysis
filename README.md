@@ -31,3 +31,23 @@ Time Series
 TF-IDF
 
 ![price-tf-idf_price](https://user-images.githubusercontent.com/58707590/166122060-45126651-30e8-493a-a8e2-e96caa96eaf4.jpg)
+
+# GPU Shortage
+
+Sentiment analysis with Vader's compound
+![Sentiment](https://user-images.githubusercontent.com/58707590/166122208-46ba442e-a8f7-4863-9209-c93e6dbd400f.png)
+
+Tweet profiler
+![Profiler](https://user-images.githubusercontent.com/58707590/166122228-50d38c22-6cee-4d26-9259-f824f7335626.png)
+
+Time Series
+![Time-series](https://user-images.githubusercontent.com/58707590/166122240-c5edb8be-beeb-4c9d-8e05-024592f4fc7f.png)
+
+TF-IDF
+
+![shortage-tf-idf_shortage](https://user-images.githubusercontent.com/58707590/166122371-288e52cb-dcf0-4340-9c1f-e8df8a01d4ba.jpg)
+
+
+
+
+
