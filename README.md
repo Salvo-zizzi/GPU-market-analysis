@@ -15,10 +15,13 @@ The tweet profiler is more specific than the Vader's compounds, the most common 
 
 ### Time Series
 ![Sentiment_linechart-time](https://user-images.githubusercontent.com/58707590/166121570-9e81988d-1a0c-4936-854f-ed0fe380fab8.jpg)
+In this time series we can see how the launch of the new intel's graphics card cause a decrease and the day after the launch a big increase of the sentiment, maybe because before and during the launch no one think they let see a preview of a desktop gpu, but after people saw the sample maybe were very excited. 
 
 ### TF-IDF
 
 ![TF-IDF](https://user-images.githubusercontent.com/58707590/166121603-8fb3bdb8-3673-4e2f-a3c9-fc9aea4d444a.jpg)
+
+The most common terms are "geforce" and "amazon" beacuse the most available gpus are Nvidia's gpus and people usually buy them on amazon because it's more safe than other websites where they can find scalpers.
 
 # GPU Price
 
