@@ -1,7 +1,7 @@
 
 This is the analysis about GPU stocks, prices and shortage situation between 25 March and 7 April. I scraped data from twitter and used Vader for the sentiment analysis, so in the graphics below the values refer to the compound.
 We can see a discrepance between the sentiment analysis and the tweet profiler, i think the last one is more accurate. 
-I use also che TF-IDF to see the more common terms.
+I use also the TF-IDF to see the more common terms.
 
 # GPU Stock
 
@@ -27,32 +27,40 @@ The most common terms are "geforce" and "amazon" beacuse the most available gpus
 
 ### Sentiment analysis with Vader's compound
 ![Sentiment](https://user-images.githubusercontent.com/58707590/166121724-4392224a-b52a-4792-b8ef-ea3b1370af3f.png)
+The compound is mostly positive because the prices had a decrease in this period.
 
 ### Tweet profiler
 ![Profiler](https://user-images.githubusercontent.com/58707590/166121770-7ad031d1-e7bf-4f24-85d7-d1bcffc52020.png)
+The  "positive" sentiment is higher than the "negative", this means people are happy for the lower prices of this period and very few people have negative thoughts about it.
 
-Time Series
+### Time Series
 ![Time-series](https://user-images.githubusercontent.com/58707590/166121806-9e549c4b-664b-460c-a997-eb8450ddc155.png)
+Here we can see how the compound is up and down in all the period we analysed, it's because some people are happy for the lower prices but others are not because the prices at the launches are not the same for buying the gpus.
 
 ### TF-IDF
-
 ![price-tf-idf_price](https://user-images.githubusercontent.com/58707590/166122060-45126651-30e8-493a-a8e2-e96caa96eaf4.jpg)
+
+The most common terms fo the price are "mediamarkt" and "saturn", they are two electornic's store in Germany, where the gpu's stock are mosst available and the prices are the lowest.
 
 # GPU Shortage
 
 #### Sentiment analysis with Vader's compound
 ![Sentiment](https://user-images.githubusercontent.com/58707590/166122208-46ba442e-a8f7-4863-9209-c93e6dbd400f.png)
+The compound has the highest frequency beetween 0.2 and 0.4, we can say that there are more positive thoughts tha negatives, but let's see it with the tweet profiler.
 
 ### Tweet profiler
 ![Profiler](https://user-images.githubusercontent.com/58707590/166122228-50d38c22-6cee-4d26-9259-f824f7335626.png)
+The tweet profiler says that there is more sadness than joy, so we can say the compound graph can deceive us, so the most common sentiment is sadness becuase the shortage time is not over, but there is also joy beacuse the shortage is not strong as before.
 
 ### Time Series
 ![Time-series](https://user-images.githubusercontent.com/58707590/166122240-c5edb8be-beeb-4c9d-8e05-024592f4fc7f.png)
+The compound is highly variable in the time for the shortage with a stable time between 30 march and 31 march, this is because the availability and the prices of the gpus were very variable in this shortage period of time.
 
 ### TF-IDF
 
 ![shortage-tf-idf_shortage](https://user-images.githubusercontent.com/58707590/166122371-288e52cb-dcf0-4340-9c1f-e8df8a01d4ba.jpg)
 
+The most common term is "bitcoin" becuase most people acccuse the crypto miner (specifically about bitcoin) of the shortage.
 
 
 
