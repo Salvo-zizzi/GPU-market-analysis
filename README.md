@@ -60,7 +60,7 @@ The compound is highly variable in the time for the shortage with a stable time 
 
 ![shortage-tf-idf_shortage](https://user-images.githubusercontent.com/58707590/166122371-288e52cb-dcf0-4340-9c1f-e8df8a01d4ba.jpg)
 
-The most common term is "bitcoin" becuase most people acccuse the crypto miner (specifically about bitcoin) of the shortage.
+The most common term is "bitcoin" because most people acccuse the crypto miner (specifically about bitcoin) of the shortage.
 
 
 
