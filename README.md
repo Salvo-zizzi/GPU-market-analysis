@@ -1,83 +1,74 @@
-# GPU Market Analysis: Stock, Price, and Shortage (March 25 - April 7)
+# 🚀 GPU Market Deep Dive | Stock, Price & Shortage Trends  
+### *March 25 – April 7 | Twitter Data & Sentiment Insights*
 
-This analysis examines GPU stock availability, pricing trends, and shortage conditions between March 25th and April 7th. Data was scraped from Twitter, and sentiment analysis was performed using VADER. Additionally, TF-IDF was employed to identify the most frequent terms.
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Tool: Orange Data Mining](https://img.shields.io/badge/Tool-%20Orange_Data_Mining-orange.svg)](https://orangedatamining.com/)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-%20Salvatore_Zizzi-1DA1F2.svg)](https://www.linkedin.com/in/salvatore-zizzi-242151107/)
 
-**Note:** Sentiment analysis was performed using VADER, and a custom "Tweet profiler" was used to provide a more detailed analysis of the sentiment of the tweets. The "Tweet profiler" is a custom tool that allows a more granular look at the sentiment of the tweets, allowing to see the different types of emotions, like joy, sadness, etc. The "compound" value given by VADER, is a single value that represents the overall sentiment of the text.
+---
 
-## GPU Stock
+### 🔥 Overview  
+Dive into the GPU market pulse from late March to early April. We scraped fresh Twitter data, ran sentiment analysis with **VADER**, and uncovered trending topics with **TF-IDF** — all to reveal what’s really happening with GPU stock, pricing, and shortages.
 
-### Sentiment Analysis with VADER's Compound
+---
 
-![Compound-Sentiment-Vader](https://user-images.githubusercontent.com/58707590/166121312-fa002341-ab00-4566-8b54-6870bb141a5b.jpg)
+## 🎯 Sentiment Analysis: More Than Just Numbers  
+- **VADER Compound Score:** A single, overall sentiment indicator.  
+- **Tweet Profiler:** Our custom tool decoding the emotional layers of tweets — joy, sadness, surprise, and beyond.
 
-The compound sentiment is generally positive, reflecting the increased availability of GPUs in recent weeks after a period of scarcity.
+---
 
-### Tweet Profiler
+## 📦 GPU Stock: The Availability Comeback  
 
-![Profiler-Boxplot](https://user-images.githubusercontent.com/58707590/166121505-450ae39e-3e99-423b-8f38-b201516854fe.jpg)
+![Compound Sentiment - VADER](https://user-images.githubusercontent.com/58707590/166121312-fa002341-ab00-4566-8b54-6870bb141a5b.jpg)  
+**Compound Sentiment:** Positive trend signals GPUs are making a strong return after scarcity.
 
-The tweet profiler provides a more nuanced view than the VADER compound. The dominant sentiment is joy, aligning with the improved stock availability.
+![Tweet Profiler - Stock](https://user-images.githubusercontent.com/58707590/166121505-450ae39e-3e99-423b-8f38-b201516854fe.jpg)  
+**Tweet Profiler:** Joy is the dominant emotion — the community is thrilled about improved stock.
 
-### Time Series
+![Sentiment Timeline - Stock](https://user-images.githubusercontent.com/58707590/166121570-9e81988d-1a0c-4936-854f-ed0fe380fab8.jpg)  
+**Timeline:** Skepticism peaks around Intel’s GPU launch, then excitement surges after desktop GPU previews.
 
-![Sentiment_linechart-time](https://user-images.githubusercontent.com/58707590/166121570-9e81988d-1a0c-4936-854f-ed0fe380fab8.jpg)
+![TF-IDF Stock](https://user-images.githubusercontent.com/58707590/166121603-8fb3bdb8-3673-4e2f-a3c9-fc9aea4d444a.jpg)  
+**Top Keywords:** “geforce” and “amazon” dominate—Nvidia rules and Amazon remains the safe buy spot.
 
-The time series reveals a sentiment dip around the Intel graphics card launch, followed by a significant increase. This suggests initial skepticism, turning to excitement upon seeing the desktop GPU preview.
+---
 
-### TF-IDF
+## 💸 GPU Price: Market Cooling Down  
 
-![TF-IDF](https://user-images.githubusercontent.com/58707590/166121603-8fb3bdb8-3673-4e2f-a3c9-fc9aea4d444a.jpg)
+![Compound Sentiment - Price](https://user-images.githubusercontent.com/58707590/166121724-4392224a-b52a-4792-b8ef-ea3b1370af3f.png)  
+**Compound Sentiment:** Mostly positive, reflecting noticeable price drops.
 
-The most frequent terms are "geforce" and "amazon," indicating the prevalence of Nvidia GPUs and Amazon as a common purchase platform, perceived as safer than other sources prone to scalping.
+![Tweet Profiler - Price](https://user-images.githubusercontent.com/58707590/166121770-7ad031d1-e7bf-4f24-85d7-d1bcffc52020.png)  
+**Tweet Profiler:** Optimism outweighs complaints — many happy with lower prices, though some still find them high.
 
-## GPU Price
+![Sentiment Timeline - Price](https://user-images.githubusercontent.com/58707590/166121806-9e549c4b-664b-460c-a997-eb8450ddc155.png)  
+**Timeline:** Mixed reactions as prices fluctuate—relief meets frustration.
 
-### Sentiment Analysis with VADER's Compound
+![TF-IDF Price](https://user-images.githubusercontent.com/58707590/166122060-45126651-30e8-493a-a8e2-e96caa96eaf4.jpg)  
+**Top Keywords:** “mediamarkt” and “saturn” shine as German retailers offering better stock and prices.
 
-![Sentiment](https://user-images.githubusercontent.com/58707590/166121724-4392224a-b52a-4792-b8ef-ea3b1370af3f.png)
+---
 
-The compound sentiment is predominantly positive, reflecting the price decrease observed during this period.
+## ⚠️ GPU Shortage: The Lingering Shadow  
 
-### Tweet Profiler
+![Compound Sentiment - Shortage](https://user-images.githubusercontent.com/58707590/166122208-46ba442e-a8f7-4863-9209-c93e6dbd400f.png)  
+**Compound Sentiment:** Slightly positive, but the deeper story lies beneath.
 
-![Profiler](https://user-images.githubusercontent.com/58707590/166121770-7ad031d1-e7bf-4f24-85d7-d1bcffc52020.png)
+![Tweet Profiler - Shortage](https://user-images.githubusercontent.com/58707590/166122228-50d38c22-6cee-4d26-9259-f824f7335626.png)  
+**Tweet Profiler:** Sadness edges out joy — shortage effects still felt strongly.
 
-Positive sentiment outweighs negative, indicating general satisfaction with lower prices.
+![Sentiment Timeline - Shortage](https://user-images.githubusercontent.com/58707590/166122240-c5edb8be-beeb-4c9d-8e05-024592f4fc7f.png)  
+**Timeline:** High volatility with a brief calm between March 30–31.
 
-### Time Series
+---
 
-![Time-series](https://user-images.githubusercontent.com/58707590/166121806-9e549c4b-664b-460c-a997-eb8450ddc155.png)
+### 💡 Want to explore more or reproduce the analysis?  
+Check out the code and methods — dive into GPU data like never before!
 
-The compound sentiment fluctuates, reflecting mixed reactions to price variations. While some are pleased with lower prices, others express dissatisfaction with prices still inflated compared to launch prices.
+---
 
-### TF-IDF
+> *Crafted with passion by Salvo – Statistics Student & Data Enthusiast*  
+> *Decoding the market, one tweet at a time.*
 
-![price-tf-idf_price](https://user-images.githubusercontent.com/58707590/166122060-45126651-30e8-493a-a8e2-e96caa96eaf4.jpg)
-
-"Mediamarkt" and "saturn" are the most common terms, indicating German electronics retailers with relatively abundant GPU stock and lower prices.
-
-## GPU Shortage
-
-### Sentiment Analysis with VADER's Compound
-
-![Sentiment](https://user-images.githubusercontent.com/58707590/166122208-46ba442e-a8f7-4863-9209-c93e6dbd400f.png)
-
-The compound sentiment leans slightly positive, but the tweet profiler provides a more accurate representation.
-
-### Tweet Profiler
-
-![Profiler](https://user-images.githubusercontent.com/58707590/166122228-50d38c22-6cee-4d26-9259-f824f7335626.png)
-
-The tweet profiler reveals a higher prevalence of sadness than joy, indicating that the shortage's impact is still felt, although less severely.
-
-### Time Series
-
-![Time-series](https://user-images.githubusercontent.com/58707590/166122240-c5edb8be-beeb-4c9d-8e05-024592f4fc7f.png)
-
-The compound sentiment fluctuates significantly, reflecting the volatile availability and pricing during the shortage period. A period of stability is seen between March 30th and 31st.
-
-### TF-IDF
-
-![shortage-tf-idf_shortage](https://user-images.githubusercontent.com/58707590/166122371-288e52cb-dcf0-4340-9c1f-e8df8a01d4ba.jpg)
-
-"Bitcoin" is the most frequent term, reflecting the common belief that cryptocurrency mining contributes to the GPU shortage.
