@@ -4,7 +4,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tool: Orange Data Mining](https://img.shields.io/badge/Tool-%20Orange_Data_Mining-orange.svg)](https://orangedatamining.com/)
-[![Linkedin](https://img.shields.io/badge/LinkedIn-%20Salvatore_Zizzi-1DA1F2.svg)](https://www.linkedin.com/in/salvatore-zizzi-242151107/)
+[![Author](https://img.shields.io/badge/Author-%20Salvatore_Zizzi-1DA1F2.svg)](https://www.linkedin.com/in/salvatore-zizzi-242151107/)
 
 ---
 
